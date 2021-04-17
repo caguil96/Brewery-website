@@ -14,6 +14,7 @@ Specify the API you are using and include a link. Show us a snippet of JSON retu
 
 https://api.openbrewerydb.org
 
+Screen Shot 2021-04-17 at 11.42.15 AM![image](https://user-images.githubusercontent.com/32564773/115118647-31787c80-9f72-11eb-955e-fb582ffced1c.png)
 
 ## Wireframes
 
