@@ -12,6 +12,8 @@ Use this section to describe your final project and perhaps any links to relevan
 
 Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
 
+I'm using a brewery API. It includes all of the data that I need and it's completely free. The downside of the API is that it does not include images of the breweries. 
+
 https://api.openbrewerydb.org
 
 [image](https://user-images.githubusercontent.com/32564773/115118647-31787c80-9f72-11eb-955e-fb582ffced1c.png)
