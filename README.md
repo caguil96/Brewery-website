@@ -50,8 +50,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 ## Priority Matrix
 
-![image](https://user-images.githubusercontent.com/32564773/115191181-1400fb00-a0b7-11eb-9873-3a84050e02ff.png)
-
+![image](https://user-images.githubusercontent.com/32564773/115191632-b1f4c580-a0b7-11eb-897b-71d16c04754e.png)
 
 ## Timeframes
 
