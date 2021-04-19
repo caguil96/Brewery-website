@@ -5,10 +5,58 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script defer src="./script.js"></script>
+  <title>AG Brewery</title>
 </head>
 
 <body>
+
+  <h1>AG Brewery</h1>
+  <img
+    src="https://www.foxcities.org/imager/files_idss_com/C159/523b0620-11c0-4cdd-ab6e-f944c641d0f3/b54c9d16-a6e8-4146-939c-053efed17909_5ac8ae049534b01c104dc4019c5230ff.jpg"
+    alt="brewery">
+
+  <form class="city-search-box">
+    <select id="search-city">
+      <option disabled selected>Search by city</option>
+    </select>
+    <button>Search</button>
+  </form>
+
+  <form class="name-search-box">
+    <select id="search-name">
+      <option disabled selected>Search by name</option>
+    </select>
+    <input type="button" value="Search">
+  </form>
+
+  <form class="state-search-box">
+    <select id="search-state">
+      <option disabled selected>Search by state</option>
+    </select>
+    <button>Search</button>
+  </form>
+
+  <form class="postal-code-search-box">
+    <select id="search-postal-code">
+      <option disabled selected>Search by postal code</option>
+    </select>
+    <button>Search</button>
+  </form>
+
+  <form class="brewery-type">
+    <select id="type-of-brewery">
+      <option disabled selected>Type</option>
+    </select>
+  </form>
+
+  <form class="distance-search-box">
+    <select id="distance-to-brewery">
+      <option disabled selected>Distance</option>
+    </select>
+  </form>
 
 </body>
 
