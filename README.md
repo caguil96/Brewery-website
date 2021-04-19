@@ -16,7 +16,7 @@ I'm using a brewery API. It includes all of the data that I need and it's comple
 
 https://api.openbrewerydb.org
 
-
+![image](https://user-images.githubusercontent.com/32564773/115183586-0bee8e80-a0aa-11eb-89ad-255478ad4d9f.png)
 
 ## Wireframes
 
