@@ -22,19 +22,23 @@ https://api.openbrewerydb.org
 
 
 ### MVP/PostMVP
-
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
-
+  
 #### MVP 
 
 - Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
+- Built with HTML, CSS, and JavaScript.
+- Styled using Flexbox or Grid.
+- Use Axios to make a request to an external data source and insert some of the retrieved data on to the DOM.
+- Implement responsive design using at least one media query/breakpoint (i.e. desktop, tablet, mobile, etc).
+- Deployed site to a hosting service like Github Pages.
+- Make commits to GitHub every day.
+- A README.md file that contains your project worksheet, a link to your live, deployed site, and any necessary installation instructions such as npm i.
 
 #### PostMVP  
 
 - Add a second API from Google Maps to link the pictures of the breweries
-- 
+- Add more event listeners 
+- Look up information on how to improve the website's UX 
 
 ## Project Schedule
 
@@ -54,14 +58,13 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 ## Timeframes
 
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
-
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
+| Writing Pseudocode | H | 7hrs| N/A | N/A |
+| Writing Code | H | 5hrs | N/A | N/A |
+| Creating HTML Structure | H | 1hr | N/A | N/A |
+| Using CSS and Flexbox | M | 7hrs | N/A | N/A |
+| Working with API | H | 1hr| N/A | N/A |
 | Total | H | 6hrs| 5hrs | 5hrs |
 
 ## Code Snippet
