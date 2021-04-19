@@ -20,7 +20,7 @@ https://api.openbrewerydb.org
 
 ## Wireframes
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+
 
 ### MVP/PostMVP
 
