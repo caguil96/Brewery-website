@@ -8,7 +8,6 @@ The name of your project with deployed URL.
 
 My final project will be able to provide the user with breweries based on the user's location. The user will specify if they want to look by city, name, zip code, distance, state, or type. 
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
 
 ## API and Data Sample
 
