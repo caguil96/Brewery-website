@@ -6,11 +6,11 @@ The name of your project with deployed URL.
 
 ## Project Description
 
+My final project will be able to provide the user with breweries based on the user's location. The user will specify if they want to look by city, name, zip code, distance, state, or type. 
+
 Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
 
 ## API and Data Sample
-
-Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
 
 I'm using a brewery API. It includes all of the data that I need and it's completely free. The downside of the API is that it does not include images of the breweries. 
 
@@ -27,23 +27,17 @@ https://api.openbrewerydb.org
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
 #### MVP 
-*These are examples only. Replace with your own MVP features.*
 
 - Find and use external api 
 - Render data on page 
 - Allow user to choose favorites 
 
 #### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
 
-- Add second API
-- Use local storage to save user favorites
+- Add a second API from Google Maps to link the pictures of the breweries
+- 
 
 ## Project Schedule
-
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
 
 |  Day | Deliverable | Status
 |---|---| ---|
@@ -57,7 +51,8 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Priority Matrix
 
-Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes
+![image](https://user-images.githubusercontent.com/32564773/115191181-1400fb00-a0b7-11eb-9873-3a84050e02ff.png)
+
 
 ## Timeframes
 
