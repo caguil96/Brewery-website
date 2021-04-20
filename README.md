@@ -46,8 +46,8 @@ https://api.openbrewerydb.org
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|April 16-18| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|April 19| Project Approval | Incomplete
+|April 16-18| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
+|April 19| Project Approval | Complete
 |April 20| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |April 20| Pseudocode / actual code | Incomplete
 |April 21| Initial Clickable Model  | Incomplete
@@ -64,10 +64,10 @@ https://api.openbrewerydb.org
 | --- | :---: |  :---: | :---: | :---: |
 | Writing Pseudocode | H | 7hrs| N/A | N/A |
 | Writing Code | H | 5hrs | N/A | N/A |
-| Creating HTML Structure | H | 1hr | N/A | N/A |
+| Creating HTML Structure | H | 1hr | 1.5hrs | 1.5hrs |
 | Using CSS and Flexbox | M | 7hrs | N/A | N/A |
 | Working with API | H | 1hr| N/A | N/A |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Total | H | 21hrs| 5hrs | 5hrs |
 
 ## Code Snippet
 
