@@ -41,6 +41,7 @@ https://api.openbrewerydb.org
 - Add a second API from Google Maps to link the pictures of the breweries
 - Add more event listeners 
 - Look up information on how to improve the website's UX 
+- Add a video API
 
 ## Project Schedule
 
