@@ -1,3 +1,6 @@
+body{
+  padding: 25px;
+}
 .heading{
   padding: 10px;
 }
@@ -6,49 +9,66 @@ h1{
 }
 .beer-factory{
   display: block;
+  height: 350px;
 }
 .brewery{
   padding: 10px;
+  height: 350px;
 }
 .beer-pong{
   padding: 10px;
+  height: 350px;
 }
 .charlotte{
   padding: 10px;
+  height: 350px;
 }
 .people-drinking{
   padding: 10px;
+  height: 350px;
 }
 .beer-garden{
   padding: 10px;
+  height: 350px;
 }
 .beer-farm{
   padding: 10px;
+  height: 350px;
 }
 .red-poster{
   padding: 10px;
+  height: 350px;
 }
 .us-poster{
   padding: 10px;
+  height: 350px;
 }
 .ny-beer{
   padding: 10px;
+  height: 350px;
 }
 .serving-beer{
   padding: 10px;
+  height: 350px;
 }
 .beer-tasting{
   padding: 10px;
+  height: 350px;
 }
 .square{
   padding: 10px;
+  height: 350px;
 }
 .cheers{
   padding: 10px;
+  height: 350px;
 }
 .draft-beer{
   padding: 10px;
+  height: 350px;
 }
 .outside-beer-garden{
   padding: 10px;
+  height: 350px;
 }
+
