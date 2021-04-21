@@ -6,17 +6,29 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Diplomata+SC&display=swap" rel="stylesheet">
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <script defer src="./script.js"></script>
   <title>AG Brewery</title>
 </head>
 
 <body>
+  <div class="heading">
+    <h1>AG Brewery</h1>
+    <h4>One Click Away From The Best Beer Places Around You</h4>
+  </div>
+  <div class="first-row">
+    <img class="brewery"
+      src="https://www.foxcities.org/imager/files_idss_com/C159/523b0620-11c0-4cdd-ab6e-f944c641d0f3/b54c9d16-a6e8-4146-939c-053efed17909_5ac8ae049534b01c104dc4019c5230ff.jpg"
+      alt="brewery" width="500" height="300" class="beer-factory">
 
-  <h1>AG Brewery</h1>
-  <img
-    src="https://www.foxcities.org/imager/files_idss_com/C159/523b0620-11c0-4cdd-ab6e-f944c641d0f3/b54c9d16-a6e8-4146-939c-053efed17909_5ac8ae049534b01c104dc4019c5230ff.jpg"
-    alt="brewery">
+    <img class="beer-pong" src="https://bargames101.com/wp-content/uploads/2018/12/beer-pong-rules-and-more.jpg"
+      alt="beer-pong" width="500" height="400">
+
+    <img class="charlotte" src="https://charlottebeergarden.com/wp-content/uploads/2020/07/char.jpg"
+      alt="beer-garden-charlotte" width="500">
+  </div>
 
   <form class="city-search-box">
     <select id="search-city">
@@ -24,43 +36,74 @@
     </select>
     <button>Search</button>
   </form>
+  <div class="second-row">
+    <img class="people-drinking"
+      src="https://res.cloudinary.com/daqrhtpyl/image/upload/v1619015659/preview-470205-L4otYL6d5sP7vIlo-large_bct3qx.jpg"
+      alt="people drinking" width="500" height="300">
+
+    <img class="beer-garden"
+      src="https://www.michigan.org/sites/default/files/uploads/2019/motor-city-brewing-works.jpg" alt="beer-garden"
+      width="500" height="350">
+
+    <img class="beer-farm"
+      src="https://i2.wp.com/newspack-washingtoncitypaper.s3.amazonaws.com/uploads/2020/10/0.jpg?fit=816%2C612&ssl=1"
+      alt="beer-garden-farm" width="500">
+  </div>
 
   <form class="name-search-box">
     <label for="name">Search by name</label>
     <input id="search-name" type="text" name="name"></input>
     <input type="button" value="Search">
   </form>
+  <div class="third-row">
+    <img class="red-poster"
+      src="https://res.cloudinary.com/daqrhtpyl/image/upload/v1619015168/b3a3ede133aef448c09c3334f2ddef5e_npfn18.jpg"
+      alt="red-poster" width="500" height="400">
 
+    <img class="us-poster"
+      src="https://thumbs.imagekind.com/4410146_650/Vintage-Poster-Beer-its-good-for-you-Uncle-Sam_art.jpg?v=1607760249"
+      alt="us-poster" width="500" height="400">
+
+    <img class="ny-beer" src="https://pbs.twimg.com/media/EYYpAdLUwAMBkbT.jpg" alt="beer-garden-ny" width="500">
+  </div>
   <form class="state-search-box">
     <select id="search-state">
       <option disabled selected>Search by state</option>
     </select>
     <button>Search</button>
   </form>
+  <div class="fourth-row">
+    <img class="serving-beer"
+      src="https://res.cloudinary.com/daqrhtpyl/image/upload/v1619013813/Cascara-stories-3-scaled_u7yxar.jpg"
+      alt="serving-beer" width="500" height="400">
 
-  <form class="postal-code-search-box">
-    <select id="search-postal-code">
-      <option disabled selected>Search by postal code</option>
-    </select>
-    <button>Search</button>
-  </form>
+    <img class="beer-tasting" src="https://traveloregon.com/wp-content/uploads/2019/09/2019OctCul_beer_Westside.jpg"
+      alt="beer-tasting" width="500" height="300">
+
+    <img class="square"
+      src="https://d1ynl4hb5mx7r8.cloudfront.net/wp-content/uploads/2018/10/31162442/Celis-Beer-Garden-Rendering_.jpeg"
+      alt="beer-garden-square" width="500">
+  </div>
 
   <form class="brewery-type">
     <select id="type-of-brewery">
       <option disabled selected>Type</option>
     </select>
     <button>Search</button>
-
   </form>
+  <div class="fifth-row">
+    <img class="cheers"
+      src="https://res.cloudinary.com/daqrhtpyl/image/upload/v1619013728/98044930-two-best-friends-or-college-mates-having-beer-in-pub-afro-american-man-talking-to-his-caucasian-frie_xxaolr.jpg"
+      alt="cheers" width="500" height="350">
 
-  <form class="distance-search-box">
-    <select id="distance-to-brewery">
-      <option disabled selected>Distance</option>
-    </select>
-    <button>Search</button>
-  </form>
+    <img class="draft-beer"
+      src="https://m.media-amazon.com/images/S/assets.wholefoodsmarket.com//content/c1/94/2a952247437680c17e0702f75173/beer-hero-2x._TTW_._CR0,0,3000,1200_._SR2000,800_._QL100_.jpg"
+      alt="draft-beer" width="500" height="250">
 
+    <img class="outside-beer-garden"
+      src="https://phillymdoevents.files.wordpress.com/2020/02/parks-on-tap-2.jpg?w=705&h=435&crop=1"
+      alt="beer-garden-outside" width="500">
+  </div>
 </body>
-
 
 </html>

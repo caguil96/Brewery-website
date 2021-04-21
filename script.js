@@ -1,33 +1,46 @@
-let url = 'https://api.openbrewerydb.org/breweries?';
-
-// let parameters =
-
+let url = 'https://api.openbrewerydb.org/breweries?per_page=50';
 // Make API request
-
 // Create an async function called makeRequest to get the data for the breweries
 
-async function makeRequest() {
+async function makeRequestState() {
 
   try {
     const response = await axios.get(url);
-    stateMenu(response.data);
+    // typeList(response.data);
     console.log(response);
+    menuOptionsState(response.data);
   } catch (error) {
     console.error(error);
   }
 }
 
-makeRequest();
-const stateMenu = (breweries) => {
-  breweries.forEach((brewery) => {
-    let state = document.querySelector('#search-state');
+makeRequestState();
+function menuOptionsState(breweries) {
+  const states = breweries.map((brewery) => {
+
+    return brewery.state;
+
+  })
+  let uniqueStates = states.filter((val, index, val2) => {
+    return val2.indexOf(val) == index;
+
+  })
+  console.log(uniqueStates);
+  let stateDropdown = document.querySelector('#search-state');
+  uniqueStates.forEach((state) => {
     let stateOption = document.createElement('option');
-    // state.option = brewery.state;
-    stateOption.value = brewery.state;
-    state.appendChild(stateOption);
+    if (state === null) {
+      return false;
+    } else {
+      stateOption.innerText = state;
+      stateOption.value = state;
+      stateDropdown.append(stateOption);
+    }
+
   })
 
 }
+
 
 // Create a function called listBreweries to get the complete list of data from API
 // Create a forEach loop inside the function to iterate through each "brewery" fom the list of "breweries"

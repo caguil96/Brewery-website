@@ -1,6 +1,54 @@
-h1{
-  background-color: aqua;
+.heading{
+  padding: 10px;
 }
-.city-search-box{
-  background-color: blue;
+h1{
+  font-family: 'Diplomata SC', cursive;
+}
+.beer-factory{
+  display: block;
+}
+.brewery{
+  padding: 10px;
+}
+.beer-pong{
+  padding: 10px;
+}
+.charlotte{
+  padding: 10px;
+}
+.people-drinking{
+  padding: 10px;
+}
+.beer-garden{
+  padding: 10px;
+}
+.beer-farm{
+  padding: 10px;
+}
+.red-poster{
+  padding: 10px;
+}
+.us-poster{
+  padding: 10px;
+}
+.ny-beer{
+  padding: 10px;
+}
+.serving-beer{
+  padding: 10px;
+}
+.beer-tasting{
+  padding: 10px;
+}
+.square{
+  padding: 10px;
+}
+.cheers{
+  padding: 10px;
+}
+.draft-beer{
+  padding: 10px;
+}
+.outside-beer-garden{
+  padding: 10px;
 }
