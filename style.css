@@ -87,4 +87,7 @@ h1{
 .outside-beer-garden{
   flex: 50%;
 }
+#search-state{
+  align-items: center;
+}
 
