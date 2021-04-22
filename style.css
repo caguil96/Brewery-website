@@ -1,74 +1,90 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: center;
+  align-content:center;
+}
+@media(max-width:800px){
+  .container{
+    flex-direction: column;
+  }
+}
+.items-container{
+  margin: 25px;
+
+}
+/* ======================================== */
 body{
   padding: 25px;
 }
+/* ======================================== */
 .heading{
   padding: 10px;
 }
+/* ======================================= */
 h1{
   font-family: 'Diplomata SC', cursive;
 }
-.beer-factory{
-  display: block;
-  height: 350px;
-}
-.brewery{
-  padding: 10px;
-  height: 350px;
+/* ====================================== */
+/* ====================================== */
+/* ====================================== */
+.brewery-factory{
+  flex:auto;
 }
 .beer-pong{
-  padding: 10px;
-  height: 350px;
+  flex:auto;
 }
 .charlotte{
-  padding: 10px;
-  height: 350px;
+  flex:auto;
 }
+/* ======================================== */
+/* ======================================== */
+/* ======================================== */
 .people-drinking{
-  padding: 10px;
-  height: 350px;
+  flex:auto;
 }
 .beer-garden{
-  padding: 10px;
-  height: 350px;
+  flex: auto;
 }
 .beer-farm{
-  padding: 10px;
-  height: 350px;
+  flex: auto;
 }
+/* ========================================= */
+/* ========================================= */
+/* ========================================= */
 .red-poster{
-  padding: 10px;
-  height: 350px;
+  flex:auto;
 }
 .us-poster{
-  padding: 10px;
-  height: 350px;
+  flex: auto;
 }
 .ny-beer{
-  padding: 10px;
-  height: 350px;
+  flex:auto;
 }
+/* ========================================= */
+/* ========================================= */
+/* ========================================= */
 .serving-beer{
-  padding: 10px;
-  height: 350px;
+  flex: 50%;
 }
 .beer-tasting{
-  padding: 10px;
-  height: 350px;
+  flex: 50%;
 }
 .square{
-  padding: 10px;
-  height: 350px;
+  flex: 50%;
 }
+/* ========================================= */
+/* ========================================= */
+/* ========================================= */
 .cheers{
-  padding: 10px;
-  height: 350px;
+  flex: 50%;
 }
 .draft-beer{
-  padding: 10px;
-  height: 350px;
+  flex: 50%;
 }
 .outside-beer-garden{
-  padding: 10px;
-  height: 350px;
+  flex: 50%;
 }
 
